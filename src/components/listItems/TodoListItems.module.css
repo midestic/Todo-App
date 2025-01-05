@@ -1,0 +1,18 @@
+.listWrap {
+  padding: 20px;
+}
+
+.hr {
+  border: 1px solid rgb(223, 221, 221);
+}
+
+.listWrap button {
+  float: right;
+  padding: 12px 20px;
+  border: none;
+  background-color: #f7ca18;
+  color: white;
+  font-weight: bolder;
+  border-radius: 4px;
+  cursor: pointer;
+}

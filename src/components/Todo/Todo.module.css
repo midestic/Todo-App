@@ -1,0 +1,50 @@
+.todoForm {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  width: 70%;
+
+  box-shadow: 0 4px 6px rgb(0, 0, 0, 0.1);
+  margin: auto;
+}
+
+.inputBox {
+  width: 100%;
+  border: none;
+  display: block;
+  outline: none;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.inputBox :focus {
+  outline: none;
+}
+
+.todoForm div {
+  display: flex;
+}
+
+.todoForm button {
+  display: inline-block;
+  border: none;
+  border-radius: 5px;
+  background-color: #f7ca18;
+  padding: 12px;
+  color: white;
+  font-weight: bolder;
+}
+
+.todoForm button:hover {
+  cursor: pointer;
+}
+
+.listContainer {
+  width: 70%;
+  margin: auto;
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgb(0, 0, 0, 0.1);
+  margin-top: 30px;
+}
