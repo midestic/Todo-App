@@ -1,0 +1,17 @@
+/* Mobile Styles */
+@media (max-width: 600px) {
+  .task-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .task-title {
+    font-size: 1.2em;
+  }
+
+  .task-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+}

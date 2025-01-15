@@ -1,0 +1,30 @@
+/* Mobile Styles */
+@media (max-width: 600px) {
+  .app-container {
+    padding: 10px;
+  }
+
+  .task-list {
+    flex-direction: column;
+  }
+
+  .task-item {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .task-input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .task-buttons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .task-button {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+}
